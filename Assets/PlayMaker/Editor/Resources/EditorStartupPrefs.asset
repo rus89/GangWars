@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   welcomeScreenVersion: '1.9.4 '
   playmakerVersion: 
-  showWelcomeScreen: 1
+  showWelcomeScreen: 0
   showUpgradeGuide: 0
   lastAutoUpdateSignature: 2020.3.23f1__/Users/milanrusimov/Documents/Projects/Unity/2020/Lotus
     Gang Wars/Assets__0.0.0.0
