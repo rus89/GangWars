@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 6af9f0ae554fe46f9a50a8971a2a53ed
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides:
+    4:
+      loadType: 1
+      sampleRateSetting: 0
+      sampleRateOverride: 44100
+      compressionFormat: 3
+      quality: 0.5
+      conversionMode: 0
+    7:
+      loadType: 1
+      sampleRateSetting: 0
+      sampleRateOverride: 44100
+      compressionFormat: 1
+      quality: 0.5
+      conversionMode: 0
+  forceToMono: 1
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: '{"RuleName":"Music Importer","WildCardMatchType":1,"WildCard":"Audio/Music/","AssetGuid":"6af9f0ae554fe46f9a50a8971a2a53ed","assetType":2,"SelectiveMode":false,"SelectiveProperties":[]}'
+  assetBundleName: 
+  assetBundleVariant: 
