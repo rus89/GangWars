@@ -876,7 +876,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: MainMenu
-          value: {fileID: 3686076350944624877}
+          value: {fileID: 0}
         fsmVarParams:
         - variableName: 
           objectType: 
@@ -16944,7 +16944,6 @@ GameObject:
   - component: {fileID: 2199446013436387320}
   - component: {fileID: 1640393850595883372}
   - component: {fileID: 8212818235195331150}
-  - component: {fileID: 3686076350944624877}
   - component: {fileID: 7156871048000793948}
   m_Layer: 5
   m_Name: MainMenu
@@ -17027,32 +17026,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &3686076350944624877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7711774071644483702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 080cd6fcdbbcd4a4cbab2c1c81627cee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CashTextValue: {fileID: 4609153812462569741}
-  GunsTextValue: {fileID: 8264572513195897999}
-  HealthTextValue: {fileID: 3282185979890805749}
-  BankTextValue: {fileID: 945427108230097217}
-  DebtTextValue: {fileID: 1871513319834165175}
-  Day: {fileID: 6500736846588774746}
-  CitiesButtons:
-  - {fileID: 8407462325055410148}
-  - {fileID: 6646919338676359964}
-  - {fileID: 1364740092934254415}
-  - {fileID: 4472540540991265273}
-  - {fileID: 1902146589368243919}
-  - {fileID: 6134967528451081161}
-  PriceDifferenceImage: {fileID: 0}
 --- !u!114 &7156871048000793948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18016,7 +17989,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: MainMenu
-          value: {fileID: 3686076350944624877}
+          value: {fileID: 0}
         fsmVarParams:
         - variableName: 
           objectType: 
