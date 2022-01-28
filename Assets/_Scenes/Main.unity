@@ -123,6 +123,112 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &30321859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1894928664}
+    m_Modifications:
+    - target: {fileID: 5888021388403766061, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_Name
+      value: LoanSharkMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766061, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+--- !u!224 &30321860 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5888021388403766062, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+  m_PrefabInstance: {fileID: 30321859}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &112467252
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,239 +339,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &399456938
+--- !u!1 &327923191 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7711774071644483702, guid: 82ec0ead95e034f089df6d3f2118cb39, type: 3}
+  m_PrefabInstance: {fileID: 5878173912725713637}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 399456940}
-  - component: {fileID: 399456939}
-  m_Layer: 0
-  m_Name: GameController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &399456939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 399456938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: GameFSM
-    startState: State 1
-    states:
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 60.382812
-        y: 103.99219
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    - name: EndOfGame
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 254.52344
-        y: 98.21094
-        width: 101
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    events:
-    - name: GameEnded
-      isSystemEvent: 0
-      isGlobal: 1
-    globalTransitions:
-    - fsmEvent:
-        name: GameEnded
-        isSystemEvent: 0
-        isGlobal: 1
-      toState: EndOfGame
-      linkStyle: 0
-      linkConstraint: 0
-      linkTarget: 0
-      colorIndex: 0
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
---- !u!4 &399456940
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 399456938}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &560126144
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,6 +397,223 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &580129755
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1894928664}
+    m_Modifications:
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909446, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_Name
+      value: BankMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 306050592383909446, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+--- !u!224 &580129756 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 306050592383909445, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+  m_PrefabInstance: {fileID: 580129755}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &580129757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 306050592383909446, guid: 99d6947ae50e349e896bff249ae2420a, type: 3}
+  m_PrefabInstance: {fileID: 580129755}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &610553324
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1894928664}
+    m_Modifications:
+    - target: {fileID: 4495442391194288924, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_Name
+      value: BankDepositMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288924, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+--- !u!224 &610553325 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4495442391194288927, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+  m_PrefabInstance: {fileID: 610553324}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &757480136
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,6 +894,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1088146267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1633304337571944, guid: 2fc354e119bcd440b8e506d8f6bc144f, type: 3}
+  m_PrefabInstance: {fileID: 1769352852099281799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1145963002
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +959,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1448203292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4495442391194288924, guid: cd0f8b773908149278bfd020dfdcb636, type: 3}
+  m_PrefabInstance: {fileID: 610553324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1716985676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5888021388403766061, guid: b3e49b72ac6814835a77ac188257858b, type: 3}
+  m_PrefabInstance: {fileID: 30321859}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1894928660
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +981,7 @@ GameObject:
   - component: {fileID: 1894928663}
   - component: {fileID: 1894928662}
   - component: {fileID: 1894928661}
+  - component: {fileID: 1894928665}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -953,6 +1064,10 @@ RectTransform:
   - {fileID: 2112733158}
   - {fileID: 5878173912725713638}
   - {fileID: 1768732060809843692}
+  - {fileID: 580129756}
+  - {fileID: 610553325}
+  - {fileID: 4748320984342825998}
+  - {fileID: 30321860}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -961,6 +1076,1160 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1894928665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894928660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: UIFSM
+    startState: NeutralState
+    states:
+    - name: NeutralState
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 55.109375
+        y: 122.03906
+        width: 105
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    - name: ShowBankMenu
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 784.8047
+        y: 119.578125
+        width: 128
+        height: 16
+      isBreakpoint: 0
+      isSequence: 1
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.GetComponent
+        - HutongGames.PlayMaker.Actions.CallMethod
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000008000000
+        actionHashCodes: b2cf100004d81402ca51e900
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 580129757}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 580129757}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: TurnOn
+        fsmObjectParams:
+        - useVariable: 1
+          name: bankMenuLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        - useVariable: 1
+          name: bankMenuLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100000000
+        arrayParamSizes: 00000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001100000011000000010000000100000014000000180000000100000018000000120000000c000000270000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - storeComponent
+        - everyFrame
+        - behaviour
+        - methodName
+        - parameters
+        - storeResult
+        - everyFrame
+        - manualUI
+        paramDataPos: 0000000000000000010000000000000001000000010000000000000002000000010000000000000000000000000000000300000004000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000001000000000000000000000000000000000000000100000001000000
+    - name: ShowBankDepositMenu
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 963.6328
+        y: 119.78125
+        width: 174
+        height: 16
+      isBreakpoint: 0
+      isSequence: 1
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.GetComponent
+        - HutongGames.PlayMaker.Actions.CallMethod
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000008000000
+        actionHashCodes: b2cf100004d81402ca51e900
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1448203292}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1448203292}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: TurnOn
+        fsmObjectParams:
+        - useVariable: 1
+          name: bankMenuDepositLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        - useVariable: 1
+          name: bankMenuDepositLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100000000
+        arrayParamSizes: 00000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001100000011000000010000000100000014000000180000000100000018000000120000000c000000270000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - storeComponent
+        - everyFrame
+        - behaviour
+        - methodName
+        - parameters
+        - storeResult
+        - everyFrame
+        - manualUI
+        paramDataPos: 0000000000000000010000000000000001000000010000000000000002000000010000000000000000000000000000000300000004000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000001000000000000000000000000000000000000000100000001000000
+    - name: ShowLoanSharkMenu
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 585.59375
+        y: 112.8125
+        width: 156
+        height: 16
+      isBreakpoint: 0
+      isSequence: 1
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.GetComponent
+        - HutongGames.PlayMaker.Actions.CallMethod
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000008000000
+        actionHashCodes: b2cf100004d81402ca51e900
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1716985676}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1716985676}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: TurnOn
+        fsmObjectParams:
+        - useVariable: 1
+          name: loanSharkMenuLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        - useVariable: 1
+          name: loanSharkMenuLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100000000
+        arrayParamSizes: 00000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001100000011000000010000000100000014000000180000000100000018000000120000000c000000270000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - storeComponent
+        - everyFrame
+        - behaviour
+        - methodName
+        - parameters
+        - storeResult
+        - everyFrame
+        - manualUI
+        paramDataPos: 0000000000000000010000000000000001000000010000000000000002000000010000000000000000000000000000000300000004000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000001000000000000000000000000000000000000000100000001000000
+    - name: ShowEndOfGameMenu
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 375.5547
+        y: 114.14844
+        width: 164
+        height: 16
+      isBreakpoint: 0
+      isSequence: 1
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.GetComponent
+        - HutongGames.PlayMaker.Actions.GetComponent
+        - HutongGames.PlayMaker.Actions.CallMethod
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000005000000080000000b000000
+        actionHashCodes: b2cf100004d8140204d81402ca51e900
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1088146267}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 327923191}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1088146267}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: TurnOn
+        fsmObjectParams:
+        - useVariable: 1
+          name: mainMenuLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        - useVariable: 1
+          name: endOfGameMenuLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        - useVariable: 1
+          name: endOfGameMenuLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 010000000000
+        arrayParamSizes: 00000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001100000011000000010000000100000014000000180000000100000014000000180000000100000018000000120000000c000000270000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - storeComponent
+        - everyFrame
+        - gameObject
+        - storeComponent
+        - everyFrame
+        - behaviour
+        - methodName
+        - parameters
+        - storeResult
+        - everyFrame
+        - manualUI
+        paramDataPos: 0000000000000000010000000000000001000000010000000000000002000000020000000100000003000000020000000000000000000000000000000400000005000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000001000000000000000000000001000000000000000000000000000000000000000100000001000000
+    - name: ShowMainMenu
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 213.32031
+        y: 116.40625
+        width: 127
+        height: 16
+      isBreakpoint: 0
+      isSequence: 1
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetComponent
+        - HutongGames.PlayMaker.Actions.CallMethod
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 04d81402ca51e900
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 327923191}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: TurnOn
+        fsmObjectParams:
+        - useVariable: 1
+          name: mainMenuLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        - useVariable: 1
+          name: mainMenuLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000
+        arrayParamSizes: 00000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 14000000180000000100000018000000120000000c000000270000000100000001000000
+        paramName:
+        - gameObject
+        - storeComponent
+        - everyFrame
+        - behaviour
+        - methodName
+        - parameters
+        - storeResult
+        - everyFrame
+        - manualUI
+        paramDataPos: 000000000000000000000000010000000000000000000000000000000100000002000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000000000000100000001000000
+    - name: ShowBankWithdrawMenu
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 202.08594
+        y: 227.38281
+        width: 180
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.GetComponent
+        - HutongGames.PlayMaker.Actions.CallMethod
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000008000000
+        actionHashCodes: b2cf100004d81402ca51e900
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 4748320984342825997}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 4748320984342825997}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: TurnOn
+        fsmObjectParams:
+        - useVariable: 1
+          name: bankWithdrawLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        - useVariable: 1
+          name: bankWithdrawLeanWindow
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: Lean.Gui.LeanWindow
+          value: {fileID: 0}
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100000000
+        arrayParamSizes: 00000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001100000011000000010000000100000014000000180000000100000018000000120000000c000000270000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - storeComponent
+        - everyFrame
+        - behaviour
+        - methodName
+        - parameters
+        - storeResult
+        - everyFrame
+        - manualUI
+        paramDataPos: 0000000000000000010000000000000001000000010000000000000002000000010000000000000000000000000000000300000004000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000001000000000000000000000000000000000000000100000001000000
+    events:
+    - name: bankDepositMenuCalled
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: isNull
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: loanSharMenuCalled
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: tokyoButtonClicked
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: isNotNull
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: GameEnded
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: GameStarted
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: debtRepayed
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: DebtDidntRepay
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: BankMenuCalled
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: MainMenuCalled
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: WithdrawMenuCalled
+      isSystemEvent: 0
+      isGlobal: 1
+    globalTransitions:
+    - fsmEvent:
+        name: bankDepositMenuCalled
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: ShowBankDepositMenu
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: GameEnded
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: ShowEndOfGameMenu
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: GameStarted
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: ShowMainMenu
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: tokyoButtonClicked
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: ShowLoanSharkMenu
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: debtRepayed
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: ShowBankMenu
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: BankMenuCalled
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: ShowBankMenu
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: MainMenuCalled
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: ShowMainMenu
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: WithdrawMenuCalled
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: ShowBankWithdrawMenu
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables:
+      - useVariable: 1
+        name: bankMenuLeanWindow
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        typeName: Lean.Gui.LeanWindow
+        value: {fileID: 0}
+      - useVariable: 1
+        name: bankMenuDepositLeanWindow
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        typeName: Lean.Gui.LeanWindow
+        value: {fileID: 0}
+      - useVariable: 1
+        name: loanSharkMenuLeanWindow
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        typeName: Lean.Gui.LeanWindow
+        value: {fileID: 0}
+      - useVariable: 1
+        name: endOfGameMenuLeanWindow
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        typeName: Lean.Gui.LeanWindow
+        value: {fileID: 0}
+      - useVariable: 1
+        name: mainMenuLeanWindow
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        typeName: Lean.Gui.LeanWindow
+        value: {fileID: 0}
+      - useVariable: 1
+        name: bankWithdrawLeanWindow
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        typeName: Lean.Gui.LeanWindow
+        value: {fileID: 0}
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices: 
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
 --- !u!1 &2052194533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +2438,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1633304337571944, guid: 2fc354e119bcd440b8e506d8f6bc144f, type: 3}
       propertyPath: m_Name
-      value: EndOfGame
+      value: EndOfGameMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633304337571944, guid: 2fc354e119bcd440b8e506d8f6bc144f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1633304337571947, guid: 2fc354e119bcd440b8e506d8f6bc144f, type: 3}
       propertyPath: m_Pivot.x
@@ -1345,6 +2618,16 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &4748320984342825997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3758610180726780818, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+  m_PrefabInstance: {fileID: 8488204256743751583}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &4748320984342825998 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+  m_PrefabInstance: {fileID: 8488204256743751583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5580382026364875688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,6 +2813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7711774071644483702, guid: 82ec0ead95e034f089df6d3f2118cb39, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8212818235195331150, guid: 82ec0ead95e034f089df6d3f2118cb39, type: 3}
       propertyPath: m_Alpha
       value: 0
@@ -1554,7 +2841,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1640393850595883372, guid: 82ec0ead95e034f089df6d3f2118cb39, type: 3}
   m_PrefabInstance: {fileID: 5878173912725713637}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 327923191}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4fd146527b61614a96da3a84e74ad78, type: 3}
@@ -1834,6 +3121,107 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &8488204256743751583
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1894928664}
+    m_Modifications:
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780817, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780818, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_Name
+      value: BankWithdrawMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758610180726780818, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd5c74f30601b47eb8ea1311f97e3c0a, type: 3}
 --- !u!33 &8873733415704460476
 MeshFilter:
   m_ObjectHideFlags: 0
