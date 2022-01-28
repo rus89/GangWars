@@ -37,13 +37,19 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0.5
+      value: 0.05
     - useVariable: 1
       name: DebtInterestRate
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 0.1
+    - useVariable: 1
+      name: DrugPrice
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables:
     - useVariable: 1
       name: CurrentHealth
@@ -69,8 +75,26 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 31
-    boolVariables: []
-    stringVariables: []
+    - useVariable: 1
+      name: DrugAmount
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables:
+    - useVariable: 1
+      name: DrugAvailability
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    stringVariables:
+    - useVariable: 1
+      name: CurrencyFormat
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: C
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -89,16 +113,32 @@ MonoBehaviour:
       networkSync: 0
       enumName: CitiesEnum
       intValue: 0
+    - useVariable: 1
+      name: DrugType
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      enumName: LotusGangWars.Drug+DrugType
+      intValue: 0
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
-  - cityChanged
-  - bangkokButtonClicked
-  - delphiButtonClicked
-  - manilaButtonClicked
-  - seoulButtonClicked
-  - shanghaiButtonClicked
-  - tokyoButtonClicked
   - GameEnded
   - GameStarted
+  - bangkokButtonClicked
+  - cityChanged
+  - delphiButtonClicked
+  - seoulButtonClicked
+  - manilaButtonClicked
+  - shanghaiButtonClicked
+  - tokyoButtonClicked
+  - bankDepositMenuCalled
+  - moneyDeposited
+  - debtRepayed
+  - DebtDidntRepay
+  - BankMenuCalled
+  - MainMenuCalled
+  - loanSharMenuCalled
+  - WithdrawMenuCalled
+  - MoneyWithdrew
