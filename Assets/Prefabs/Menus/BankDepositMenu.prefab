@@ -556,14 +556,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.020024916, g: 0.053049173, b: 0.16981131, a: 0.54901963}
+  m_Color: {r: 0.11320752, g: 0.11018153, b: 0.10412956, a: 0.78431374}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ecdf7db09d7ceb142b62d0a5673855af, type: 3}
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1028,8 +1028,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 442
-        y: 80
+        x: 447
+        y: 98
         width: 115
         height: 16
       isBreakpoint: 0
@@ -1040,7 +1040,7 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetProperty
         - HutongGames.PlayMaker.Actions.ConvertStringToFloat
-        - HutongGames.PlayMaker.Actions.SetFloatValue
+        - HutongGames.PlayMaker.Actions.FloatAdd
         - HutongGames.PlayMaker.Actions.FloatSubtract
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.CallMethod
@@ -1053,8 +1053,8 @@ MonoBehaviour:
         - 
         actionEnabled: 010101010101
         actionIsOpen: 000000000000
-        actionStartIndex: 000000000200000005000000080000000c00000010000000
-        actionHashCodes: 5ac85204e712aa019845b3052a6e8a005e69bb04ca51e900
+        actionStartIndex: 000000000200000005000000090000000d00000011000000
+        actionHashCodes: 5ac85204e712aa012a6e8a002a6e8a005e69bb04ca51e900
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1322,13 +1322,13 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - moneyDeposited
-        byteData: 0000000000000000
+        byteData: 000000000000000000
         arrayParamSizes: 00000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000120000000f000000010000000f0000000f000000010000000f0000000f00000001000000010000001f000000170000000f0000000100000018000000120000000c000000270000000100000001000000
+        paramDataType: 2400000001000000120000000f000000010000000f0000000f00000001000000010000000f0000000f00000001000000010000001f000000170000000f0000000100000018000000120000000c000000270000000100000001000000
         paramName:
         - targetProperty
         - everyFrame
@@ -1336,8 +1336,9 @@ MonoBehaviour:
         - floatVariable
         - everyFrame
         - floatVariable
-        - floatValue
+        - add
         - everyFrame
+        - perSecond
         - floatVariable
         - subtract
         - everyFrame
@@ -1352,8 +1353,8 @@ MonoBehaviour:
         - storeResult
         - everyFrame
         - manualUI
-        paramDataPos: 00000000000000000000000000000000010000000100000002000000020000000300000004000000030000000400000000000000000000000500000005000000000000000100000000000000000000000600000007000000
-        paramByteDataSize: 00000000010000000000000000000000010000000000000000000000010000000000000000000000010000000100000000000000000000000000000001000000000000000000000000000000000000000100000001000000
+        paramDataPos: 0000000000000000000000000000000001000000010000000200000002000000030000000300000004000000040000000500000000000000000000000500000006000000000000000100000000000000000000000700000008000000
+        paramByteDataSize: 0000000001000000000000000000000001000000000000000000000001000000010000000000000000000000010000000100000000000000000000000000000001000000000000000000000000000000000000000100000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -1362,6 +1363,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 1
     - name: depositAmountChoosen
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: greaterThan
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -1412,7 +1416,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1448,7 +1452,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &4495442391342744402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,7 +2002,7 @@ MonoBehaviour:
 
 
 
-    How much you want to deposit?'
+    How much money do you want to deposit?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
