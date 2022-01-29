@@ -44,12 +44,6 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0.1
-    - useVariable: 1
-      name: DrugPrice
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 0
     intVariables:
     - useVariable: 1
       name: CurrentHealth
@@ -76,18 +70,18 @@ MonoBehaviour:
       networkSync: 0
       value: 31
     - useVariable: 1
-      name: DrugAmount
+      name: CurrentPlayerDrugCapacity
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0
-    boolVariables:
+      value: 100
     - useVariable: 1
-      name: DrugAvailability
+      name: CurrentPlayerBitches
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0
+      value: 10
+    boolVariables: []
     stringVariables:
     - useVariable: 1
       name: CurrencyFormat
@@ -101,10 +95,43 @@ MonoBehaviour:
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables: []
-    objectVariables: []
+    objectVariables:
+    - useVariable: 1
+      name: SelectedDrugToBuy
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: LotusGangWars.Drug
+      value: {fileID: 0}
     materialVariables: []
     textureVariables: []
-    arrayVariables: []
+    arrayVariables:
+    - useVariable: 1
+      name: InventoryDrugs
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 12
+      objectTypeName: LotusGangWars.Drug
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: MarketDrugs
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 12
+      objectTypeName: LotusGangWars.Drug
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
     enumVariables:
     - useVariable: 1
       name: CurrentCity
@@ -113,16 +140,9 @@ MonoBehaviour:
       networkSync: 0
       enumName: CitiesEnum
       intValue: 0
-    - useVariable: 1
-      name: DrugType
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      enumName: LotusGangWars.Drug+DrugType
-      intValue: 0
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - GameEnded
   - GameStarted
