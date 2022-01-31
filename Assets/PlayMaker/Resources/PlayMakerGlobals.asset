@@ -103,6 +103,13 @@ MonoBehaviour:
       networkSync: 0
       typeName: LotusGangWars.Drug
       value: {fileID: 0}
+    - useVariable: 1
+      name: SelectedDrugToSell
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: LotusGangWars.Drug
+      value: {fileID: 0}
     materialVariables: []
     textureVariables: []
     arrayVariables:
@@ -132,6 +139,32 @@ MonoBehaviour:
       stringValues: []
       vector4Values: []
       objectReferences: []
+    - useVariable: 1
+      name: AvailableMarketDrugs
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 12
+      objectTypeName: LotusGangWars.Drug
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: AvailableInventoryDrugs
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 12
+      objectTypeName: LotusGangWars.Drug
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
     enumVariables:
     - useVariable: 1
       name: CurrentCity
@@ -142,7 +175,7 @@ MonoBehaviour:
       intValue: 0
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - GameEnded
   - GameStarted
@@ -162,3 +195,8 @@ MonoBehaviour:
   - loanSharMenuCalled
   - WithdrawMenuCalled
   - MoneyWithdrew
+  - OnPointerClicked
+  - BuyDrugMenuCalled
+  - OnDrugAddedToInventory
+  - OnDrugBought
+  - OnSellDrugMenuCalled
