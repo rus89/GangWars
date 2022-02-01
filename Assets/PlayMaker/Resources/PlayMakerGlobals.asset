@@ -200,3 +200,4 @@ MonoBehaviour:
   - OnDrugAddedToInventory
   - OnDrugBought
   - OnSellDrugMenuCalled
+  - OnDrugSold

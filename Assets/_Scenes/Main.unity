@@ -3362,7 +3362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2004420563307901473, guid: 82ec0ead95e034f089df6d3f2118cb39, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000009717519
+      value: 0.00007155662
       objectReference: {fileID: 0}
     - target: {fileID: 2007742255171123102, guid: 82ec0ead95e034f089df6d3f2118cb39, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4101,11 +4101,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.byteData.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.paramName.Array.size
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.actionNames.Array.size
@@ -4121,11 +4121,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmVarParams.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.paramDataPos.Array.size
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.size
@@ -4133,11 +4133,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.paramDataType.Array.size
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.actionHashCodes.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.actionIsOpen.Array.data[0]
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.actionIsOpen.Array.data[1]
@@ -4145,19 +4149,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.arrayParamSizes.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.arrayParamTypes.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmStringParams.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.actionStartIndex.Array.size
@@ -4165,7 +4169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.paramByteDataSize.Array.size
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3985108526192815195, guid: fd2ddcf035c424cfca42cf1fea5dc23c, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[1].value
