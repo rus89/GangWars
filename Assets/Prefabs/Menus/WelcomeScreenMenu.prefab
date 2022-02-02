@@ -457,6 +457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6289377711544473308}
   - component: {fileID: 4879463814779830722}
+  - component: {fileID: 1121989895964749843}
   m_Layer: 5
   m_Name: WelcomeScreenMenu
   m_TagString: Untagged
@@ -536,6 +537,19 @@ MonoBehaviour:
   onOff:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1121989895964749843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6289377711544473311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b12246467604d24965ec634e11d1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ok: {fileID: 2280067107156654001}
 --- !u!1 &9173535847878766409
 GameObject:
   m_ObjectHideFlags: 0

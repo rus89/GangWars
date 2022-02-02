@@ -986,7 +986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.722}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
   m_OnCullStateChanged:
@@ -1346,6 +1346,7 @@ GameObject:
   - component: {fileID: 6258938643289187330}
   - component: {fileID: 6258938643289187331}
   - component: {fileID: 6258938643289187356}
+  - component: {fileID: 4110104645035884541}
   m_Layer: 5
   m_Name: SellDrugMenu
   m_TagString: Untagged
@@ -1438,6 +1439,19 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!114 &4110104645035884541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6258938643289187329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58895e970e2034463b02174637c67869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ExitButton: {fileID: 642163750128328936}
 --- !u!1 &7442774831374761810
 GameObject:
   m_ObjectHideFlags: 0

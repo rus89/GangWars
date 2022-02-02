@@ -430,6 +430,7 @@ GameObject:
   - component: {fileID: 306050592383909445}
   - component: {fileID: 306050592383909444}
   - component: {fileID: 306050592383909467}
+  - component: {fileID: 798155503353679794}
   m_Layer: 5
   m_Name: BankMenu
   m_TagString: Untagged
@@ -522,6 +523,21 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!114 &798155503353679794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306050592383909446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191144b9bb3e84d92b2730e4b008e10a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Deposit: {fileID: 8216079248084882044}
+  Withdraw: {fileID: 3376813412958931449}
+  ExitButton: {fileID: 1952411125573998086}
 --- !u!1 &1833428324119980950
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,7 +1005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.11320752, g: 0.11018153, b: 0.10412956, a: 0.78431374}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
   m_OnCullStateChanged:

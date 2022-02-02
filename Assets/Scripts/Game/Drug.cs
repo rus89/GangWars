@@ -30,6 +30,6 @@ namespace LotusGangWars
         public DrugTypeEnum DrugType;
         public float DrugPrice;
         public int DrugAmount;
-        public CitiesEnum[] AvailableCities;
+        public Player.CitiesEnum[] AvailableCities;
     }
 }

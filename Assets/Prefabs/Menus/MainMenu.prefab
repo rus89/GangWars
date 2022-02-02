@@ -1596,8 +1596,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6183843198118741866}
   m_HandleRect: {fileID: 5031957263142986434}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2802,7 +2802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00000039715633}
+  m_AnchoredPosition: {x: 0, y: -0.0000049259497}
   m_SizeDelta: {x: 0, y: 183.92}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &8860677440769383608
@@ -4800,9 +4800,9 @@ RectTransform:
   m_Father: {fileID: 2062989944183308355}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 70.05545, y: -64.93472}
   m_SizeDelta: {x: 125.71, y: 34.836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5851332033744189211
@@ -5160,9 +5160,9 @@ RectTransform:
   m_Father: {fileID: 2062989944183308355}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 70.05545, y: -24.422224}
   m_SizeDelta: {x: 125.71, y: 31.4999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1874417636330057022
@@ -8784,7 +8784,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2062989944183308355
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15181,6 +15181,7 @@ GameObject:
   - component: {fileID: 2199446013436387320}
   - component: {fileID: 1640393850595883372}
   - component: {fileID: 8212818235195331150}
+  - component: {fileID: 9124109384288824011}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -15262,6 +15263,32 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!114 &9124109384288824011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7711774071644483702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4932a0aeda85c44babfe71b9af194f75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
+  CityOne: {fileID: 8407462325055410148}
+  CityTwo: {fileID: 6646919338676359964}
+  CityThree: {fileID: 1364740092934254415}
+  CityFour: {fileID: 4472540540991265273}
+  CityFive: {fileID: 1902146589368243919}
+  CitySix: {fileID: 6134967528451081161}
+  CashValue: {fileID: 4609153812462569741}
+  GunsValue: {fileID: 8264572513195897999}
+  HealthValue: {fileID: 3282185979890805749}
+  DepositValue: {fileID: 945427108230097217}
+  DebtValue: {fileID: 1871513319834165175}
+  DayValue: {fileID: 6500736846588774746}
 --- !u!1 &7746963467773557440
 GameObject:
   m_ObjectHideFlags: 0

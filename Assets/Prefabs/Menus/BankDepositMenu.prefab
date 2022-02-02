@@ -557,7 +557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.11320752, g: 0.11018153, b: 0.10412956, a: 0.78431374}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
   m_OnCullStateChanged:
@@ -584,6 +584,7 @@ GameObject:
   - component: {fileID: 4495442391194288927}
   - component: {fileID: 4495442391194288926}
   - component: {fileID: 4495442391194288897}
+  - component: {fileID: 4210893090481114326}
   m_Layer: 5
   m_Name: BankDepositMenu
   m_TagString: Untagged
@@ -676,6 +677,21 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!114 &4210893090481114326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4495442391194288924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c21691166d9b4962b8352e5b01f6c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  Deposit: {fileID: 5213245214168690470}
+  DepositAmount: {fileID: 7807315817002838751}
 --- !u!1 &4495442391342744402
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,7 +915,7 @@ GameObject:
   - component: {fileID: 5213245214168690470}
   - component: {fileID: 5213245214168690465}
   m_Layer: 5
-  m_Name: Button
+  m_Name: DepositButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1471,14 +1487,14 @@ MonoBehaviour:
   m_VerticalScrollbarEventHandler: {fileID: 0}
   m_LayoutGroup: {fileID: 0}
   m_ScrollSensitivity: 1
-  m_ContentType: 0
+  m_ContentType: 3
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 2
   m_LineType: 0
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 3
   m_RegexValue: 
   m_GlobalPointSize: 14
   m_CharacterLimit: 0

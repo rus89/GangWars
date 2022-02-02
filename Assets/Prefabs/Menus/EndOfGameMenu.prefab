@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 1633304337571947}
   - component: {fileID: 1633304337571946}
   - component: {fileID: 1633304337571957}
+  - component: {fileID: 4394416216880072779}
   m_Layer: 5
   m_Name: EndOfGameMenu
   m_TagString: Untagged
@@ -455,6 +456,19 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!114 &4394416216880072779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633304337571944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e376205c35fc425a95021a697f95097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ExitButton: {fileID: 3134912709859407238}
 --- !u!1 &1633304938060037
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.11320752, g: 0.11018153, b: 0.10412956, a: 0.78431374}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
   m_OnCullStateChanged:
