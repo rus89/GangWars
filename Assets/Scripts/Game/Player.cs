@@ -1,4 +1,5 @@
 using System;
+using LotusGangWars.Game;
 using UniRx;
 
 namespace LotusGangWars
@@ -22,59 +23,10 @@ namespace LotusGangWars
         public IntReactiveProperty CurrentHealth = new IntReactiveProperty(100);
         public FloatReactiveProperty CurrentDeposit = new FloatReactiveProperty(0f);
         public FloatReactiveProperty CurrentDebt = new FloatReactiveProperty(5500f);
-        public FloatReactiveProperty CurrentHighScore = new FloatReactiveProperty(0);
+        public ReactiveProperty<IDrug> SelectedMarketDrug = new ReactiveProperty<IDrug>(null);
+        public ReactiveProperty<IDrug> SelectedInventoryDrug = new ReactiveProperty<IDrug>(null);
+        public ReactiveCollection<IDrug> InventoryDrugs = new ReactiveCollection<IDrug>();
         public ReactiveCollection<FloatReactiveProperty> AllHighScores = new ReactiveCollection<FloatReactiveProperty>();
-        public ReactiveCollection<Drug> InventoryDrugs = new ReactiveCollection<Drug>();
-        public ReactiveDictionary<CitiesEnum, ReactiveCollection<Drug.DrugTypeEnum>> MarketsDrugs = new ReactiveDictionary<CitiesEnum, ReactiveCollection<Drug.DrugTypeEnum>>
-        {
-            {
-                CitiesEnum.Tokyo,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Acid, Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Heroin, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Opium, Drug.DrugTypeEnum.Peyote,
-                    Drug.DrugTypeEnum.Shrooms, Drug.DrugTypeEnum.Speed, Drug.DrugTypeEnum.Weed, Drug.DrugTypeEnum.MDA, Drug.DrugTypeEnum.PCP
-                }
-            },
-            {
-                CitiesEnum.Delphi,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Opium, Drug.DrugTypeEnum.Shrooms, Drug.DrugTypeEnum.Speed, Drug.DrugTypeEnum.MDA,
-                    Drug.DrugTypeEnum.PCP
-                }
-            },
-            {
-                CitiesEnum.Shanghai,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Acid, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Peyote, Drug.DrugTypeEnum.Speed, Drug.DrugTypeEnum.MDA
-                }
-            },
-            {
-                CitiesEnum.Bangkok,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Acid, Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Opium, Drug.DrugTypeEnum.Peyote, Drug.DrugTypeEnum.Speed,
-                    Drug.DrugTypeEnum.Weed, Drug.DrugTypeEnum.MDA
-                }
-            },
-            {
-                CitiesEnum.Manila,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Acid, Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Heroin, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Peyote, Drug.DrugTypeEnum.Shrooms, Drug.DrugTypeEnum.Weed,
-                    Drug.DrugTypeEnum.MDA
-                }
-            },
-            {
-                CitiesEnum.Seoul,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Heroin, Drug.DrugTypeEnum.Opium, Drug.DrugTypeEnum.Peyote, Drug.DrugTypeEnum.Shrooms,
-                    Drug.DrugTypeEnum.Weed, Drug.DrugTypeEnum.MDA, Drug.DrugTypeEnum.PCP
-                }
-            }
-        };
 
         public Player()
         {
@@ -89,6 +41,8 @@ namespace LotusGangWars
             CurrentHealth.Value = 100;
             CurrentDeposit.Value = 0;
             CurrentDebt.Value = 5500;
+            SelectedInventoryDrug = null;
+            SelectedMarketDrug = null;
             InventoryDrugs.Clear();
         }
     }

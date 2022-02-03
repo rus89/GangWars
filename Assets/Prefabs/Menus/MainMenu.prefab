@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -329,7 +329,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1476215124629693785}
+  m_TargetGraphic: {fileID: 6742439024865599986}
 --- !u!114 &5605050456649152682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,11 +342,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 2
-  DrugPrice: 200
-  DrugAmount: 0
-  AvailableCities: 0500000004000000
+  DrugPrice: {fileID: 2754971965046719362}
 --- !u!1 &51827214950485350
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,7 +653,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 186.25, y: -235}
+  m_AnchoredPosition: {x: 186.25, y: -35}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1753358691201481902
@@ -678,7 +677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -748,11 +747,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 9
-  DrugPrice: 2000
-  DrugAmount: 0
-  AvailableCities: 020000000400000005000000
+  DrugPrice: {fileID: 8209025725145462521}
 --- !u!1 &186622939360238049
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 186.25, y: -110}
+  m_AnchoredPosition: {x: 186.25, y: -10}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7005747335812440785
@@ -950,7 +948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1020,11 +1018,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 4
-  DrugPrice: 10000
-  DrugAmount: 0
-  AvailableCities: 00000000010000000300000005000000
+  DrugPrice: {fileID: 7959221131727382517}
 --- !u!1 &302403257379740718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,7 +1825,7 @@ GameObject:
   - component: {fileID: 7656360284254749270}
   - component: {fileID: 2214250855039286712}
   - component: {fileID: 1014447086065291797}
-  - component: {fileID: 8128868440613911522}
+  - component: {fileID: 4113478937997349001}
   m_Layer: 5
   m_Name: WeedInventoryItem
   m_TagString: Untagged
@@ -1855,7 +1852,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 185.625, y: -185}
+  m_AnchoredPosition: {x: 185.625, y: -35}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7656360284254749270
@@ -1879,7 +1876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1937,7 +1934,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2214250855039286712}
---- !u!114 &8128868440613911522
+--- !u!114 &4113478937997349001
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1946,14 +1943,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 634834621048022193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 7
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 2813906183583442086}
 --- !u!1 &685307418947907565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2892,7 +2888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2962,11 +2958,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 1
-  DrugPrice: 5000
-  DrugAmount: 0
-  AvailableCities: 000000000300000005000000
+  DrugPrice: {fileID: 3556254634534458788}
 --- !u!1 &1085192174055359780
 GameObject:
   m_ObjectHideFlags: 0
@@ -6868,7 +6863,7 @@ GameObject:
   - component: {fileID: 2071096077147252510}
   - component: {fileID: 2453676744706950628}
   - component: {fileID: 8551464398999902348}
-  - component: {fileID: 7451109662182887285}
+  - component: {fileID: 8587264401407265594}
   m_Layer: 5
   m_Name: ShroomsInventoryItem
   m_TagString: Untagged
@@ -6895,7 +6890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 185.625, y: -260}
+  m_AnchoredPosition: {x: 185.625, y: -110}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2071096077147252510
@@ -6919,7 +6914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6977,7 +6972,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2453676744706950628}
---- !u!114 &7451109662182887285
+--- !u!114 &8587264401407265594
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6986,14 +6981,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3200310300149133905}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 10
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 8915442049675955642}
 --- !u!1 &3283387238478099301
 GameObject:
   m_ObjectHideFlags: 0
@@ -7351,7 +7345,7 @@ GameObject:
   - component: {fileID: 2795626863039222316}
   - component: {fileID: 2685763279923385108}
   - component: {fileID: 685195539870564680}
-  - component: {fileID: 5228373187593411520}
+  - component: {fileID: 5713341447541064525}
   m_Layer: 5
   m_Name: HashishInventoryItem
   m_TagString: Untagged
@@ -7378,7 +7372,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 185.625, y: -210}
+  m_AnchoredPosition: {x: 185.625, y: -60}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2795626863039222316
@@ -7402,7 +7396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7460,7 +7454,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2685763279923385108}
---- !u!114 &5228373187593411520
+--- !u!114 &5713341447541064525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7469,14 +7463,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3465963172133435324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 8
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 2492875259472129965}
 --- !u!1 &3575045221981709753
 GameObject:
   m_ObjectHideFlags: 0
@@ -8419,7 +8412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8489,11 +8482,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 0
-  DrugPrice: 1000
-  DrugAmount: 0
-  AvailableCities: 00000000010000000200000004000000
+  DrugPrice: {fileID: 1649954859298816270}
 --- !u!1 &3936851558280818664
 GameObject:
   m_ObjectHideFlags: 0
@@ -8506,7 +8498,7 @@ GameObject:
   - component: {fileID: 4502103886755414382}
   - component: {fileID: 6117263339987116413}
   - component: {fileID: 6508306773288482223}
-  - component: {fileID: 1781661653204879730}
+  - component: {fileID: 5158093878936210030}
   m_Layer: 5
   m_Name: AcidInventoryItem
   m_TagString: Untagged
@@ -8557,7 +8549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8615,7 +8607,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 6117263339987116413}
---- !u!114 &1781661653204879730
+--- !u!114 &5158093878936210030
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8624,14 +8616,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3936851558280818664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 0
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 2721973424854372733}
 --- !u!1 &3947617435621435745
 GameObject:
   m_ObjectHideFlags: 0
@@ -8882,7 +8873,7 @@ GameObject:
   - component: {fileID: 7135682791293563378}
   - component: {fileID: 7005157369494261119}
   - component: {fileID: 3376251808420699680}
-  - component: {fileID: 7381593336764432896}
+  - component: {fileID: 8614474221821938435}
   m_Layer: 5
   m_Name: SpeedInventoryItem
   m_TagString: Untagged
@@ -8933,7 +8924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8991,7 +8982,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 7005157369494261119}
---- !u!114 &7381593336764432896
+--- !u!114 &8614474221821938435
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9000,14 +8991,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4008240301945809475}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 3
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 6272109656403254753}
 --- !u!1 &4035305248091835791
 GameObject:
   m_ObjectHideFlags: 0
@@ -10039,7 +10029,7 @@ GameObject:
   - component: {fileID: 4163002111783455557}
   - component: {fileID: 731286738490794501}
   - component: {fileID: 3024295365059652336}
-  - component: {fileID: 8106660176042456583}
+  - component: {fileID: 7435120055663308317}
   m_Layer: 5
   m_Name: HeroinInventoryItem
   m_TagString: Untagged
@@ -10090,7 +10080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10148,7 +10138,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 731286738490794501}
---- !u!114 &8106660176042456583
+--- !u!114 &7435120055663308317
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10157,14 +10147,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4482281872033099710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 1
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 172428623212910721}
 --- !u!1 &4486295118116245429
 GameObject:
   m_ObjectHideFlags: 0
@@ -10893,7 +10882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 186.25, y: -160}
+  m_AnchoredPosition: {x: 186.25, y: -60}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3759224589966391195
@@ -10917,7 +10906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10987,11 +10976,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 6
-  DrugPrice: 800
-  DrugAmount: 0
-  AvailableCities: 010000000300000005000000
+  DrugPrice: {fileID: 5384298328067363490}
 --- !u!1 &4873175753556637266
 GameObject:
   m_ObjectHideFlags: 0
@@ -11481,7 +11469,7 @@ GameObject:
   - component: {fileID: 1155191666932893779}
   - component: {fileID: 2089838732535257461}
   - component: {fileID: 2928534541843408737}
-  - component: {fileID: 598576377226861667}
+  - component: {fileID: 7511355988531605413}
   m_Layer: 5
   m_Name: PeyoteInventoryItem
   m_TagString: Untagged
@@ -11508,7 +11496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 185.625, y: -160}
+  m_AnchoredPosition: {x: 185.625, y: -10}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1155191666932893779
@@ -11532,7 +11520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11590,7 +11578,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2089838732535257461}
---- !u!114 &598576377226861667
+--- !u!114 &7511355988531605413
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11599,14 +11587,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5098504379002529517}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 6
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 4472551837240061756}
 --- !u!1 &5129733949138781885
 GameObject:
   m_ObjectHideFlags: 0
@@ -12776,7 +12763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 186.25, y: -185}
+  m_AnchoredPosition: {x: 186.25, y: -85}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7505187633212770835
@@ -12800,7 +12787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -12870,11 +12857,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 7
-  DrugPrice: 500
-  DrugAmount: 0
-  AvailableCities: 0000000001000000020000000300000004000000
+  DrugPrice: {fileID: 8274670799852016660}
 --- !u!1 &5900011187424460717
 GameObject:
   m_ObjectHideFlags: 0
@@ -13391,7 +13377,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 186.25, y: -135}
+  m_AnchoredPosition: {x: 186.25, y: -35}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7317467755655267245
@@ -13415,7 +13401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13485,11 +13471,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 5
-  DrugPrice: 20
-  DrugAmount: 0
-  AvailableCities: 000000000100000002000000030000000400000005000000
+  DrugPrice: {fileID: 7924246738655411003}
 --- !u!1 &6490254358247908300
 GameObject:
   m_ObjectHideFlags: 0
@@ -13654,7 +13639,7 @@ GameObject:
   - component: {fileID: 7456696278508292350}
   - component: {fileID: 6131153890784679314}
   - component: {fileID: 5690058284969670157}
-  - component: {fileID: 1034740704232940187}
+  - component: {fileID: 80898313579191734}
   m_Layer: 5
   m_Name: CocaineInventoryItem
   m_TagString: Untagged
@@ -13705,7 +13690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13763,7 +13748,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 6131153890784679314}
---- !u!114 &1034740704232940187
+--- !u!114 &80898313579191734
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13772,14 +13757,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6588673944399459149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 4
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 2587819176114719151}
 --- !u!1 &6637489516991548978
 GameObject:
   m_ObjectHideFlags: 0
@@ -13819,7 +13803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 186.25, y: -210}
+  m_AnchoredPosition: {x: 186.25, y: -10}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4230159983416792192
@@ -13843,7 +13827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13913,11 +13897,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 8
-  DrugPrice: 1200
-  DrugAmount: 0
-  AvailableCities: 01000000030000000500000004000000
+  DrugPrice: {fileID: 4718298239212771029}
 --- !u!1 &6653206841404440296
 GameObject:
   m_ObjectHideFlags: 0
@@ -14482,7 +14465,7 @@ GameObject:
   - component: {fileID: 7690222423140760391}
   - component: {fileID: 5384298328067363490}
   m_Layer: 5
-  m_Name: DrugPeyoteText
+  m_Name: DrugPriceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14616,7 +14599,7 @@ GameObject:
   - component: {fileID: 1352163810261233452}
   - component: {fileID: 9094306428931686602}
   - component: {fileID: 8300577024312613812}
-  - component: {fileID: 6522273199280252269}
+  - component: {fileID: 6526479771111626883}
   m_Layer: 5
   m_Name: PCPInventoryItem
   m_TagString: Untagged
@@ -14667,7 +14650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14725,7 +14708,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 9094306428931686602}
---- !u!114 &6522273199280252269
+--- !u!114 &6526479771111626883
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14734,14 +14717,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7291940680817350094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 2
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 9062586818319540006}
 --- !u!1 &7352157926681158163
 GameObject:
   m_ObjectHideFlags: 0
@@ -15277,6 +15259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
   GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
+  Panel: {fileID: 4372119567391182013}
   CityOne: {fileID: 8407462325055410148}
   CityTwo: {fileID: 6646919338676359964}
   CityThree: {fileID: 1364740092934254415}
@@ -15289,6 +15272,32 @@ MonoBehaviour:
   DepositValue: {fileID: 945427108230097217}
   DebtValue: {fileID: 1871513319834165175}
   DayValue: {fileID: 6500736846588774746}
+  AcidView: {fileID: 3908799842314150231}
+  HeroinView: {fileID: 1077861116493228993}
+  PCPView: {fileID: 42093315867968086}
+  SpeedView: {fileID: 8508790932922322216}
+  CocaineView: {fileID: 224927944101996839}
+  LudesView: {fileID: 6402527404128609691}
+  PeyoteView: {fileID: 4753260782832621109}
+  WeedView: {fileID: 5819239737663826132}
+  HashishView: {fileID: 6637489516991548978}
+  OpiumView: {fileID: 82780005898537940}
+  ShroomsView: {fileID: 8866086490650095882}
+  MDAView: {fileID: 8235867748122383773}
+  AcidInventoryView: {fileID: 3936851558280818664}
+  HeroinInventoryView: {fileID: 4482281872033099710}
+  PCPInventoryView: {fileID: 7291940680817350094}
+  SpeedInventoryView: {fileID: 4008240301945809475}
+  CocaineInventoryView: {fileID: 6588673944399459149}
+  LudesInventoryView: {fileID: 8167767298369562545}
+  PeyoteInventoryView: {fileID: 5098504379002529517}
+  WeedInventoryView: {fileID: 634834621048022193}
+  HashishInventoryView: {fileID: 3465963172133435324}
+  OpiumInventoryView: {fileID: 9191443370545661554}
+  ShroomsInventoryView: {fileID: 3200310300149133905}
+  MDAInventoryView: {fileID: 8628109715317814995}
+  Buy: {fileID: 3044439808557024844}
+  Sell: {fileID: 2972867002784072142}
 --- !u!1 &7746963467773557440
 GameObject:
   m_ObjectHideFlags: 0
@@ -16811,7 +16820,7 @@ GameObject:
   - component: {fileID: 51622821339492222}
   - component: {fileID: 6670774878661087597}
   - component: {fileID: 1304209510852344158}
-  - component: {fileID: 5612153477307594852}
+  - component: {fileID: 8816011702146184052}
   m_Layer: 5
   m_Name: LudesInventoryItem
   m_TagString: Untagged
@@ -16862,7 +16871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16920,7 +16929,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 6670774878661087597}
---- !u!114 &5612153477307594852
+--- !u!114 &8816011702146184052
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16929,14 +16938,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8167767298369562545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 5
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 7122070664412113757}
 --- !u!1 &8228546751377082912
 GameObject:
   m_ObjectHideFlags: 0
@@ -17090,7 +17098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 186.25, y: -285}
+  m_AnchoredPosition: {x: 186.25, y: -85}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8652226926334708599
@@ -17114,7 +17122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17184,11 +17192,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 11
-  DrugPrice: 400
-  DrugAmount: 0
-  AvailableCities: 00000000010000000300000005000000
+  DrugPrice: {fileID: 3456872717761010712}
 --- !u!1 &8314558605555066434
 GameObject:
   m_ObjectHideFlags: 0
@@ -17523,7 +17530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17593,11 +17600,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 3
-  DrugPrice: 400
-  DrugAmount: 0
-  AvailableCities: 00000000020000000300000005000000
+  DrugPrice: {fileID: 6894353958637025128}
 --- !u!1 &8561470816526356124
 GameObject:
   m_ObjectHideFlags: 0
@@ -17819,7 +17825,7 @@ GameObject:
   - component: {fileID: 2675410250243644703}
   - component: {fileID: 5899541149889369233}
   - component: {fileID: 1898760533636034678}
-  - component: {fileID: 4795141774485542703}
+  - component: {fileID: 6185547724061261187}
   m_Layer: 5
   m_Name: MDAInventoryItem
   m_TagString: Untagged
@@ -17846,7 +17852,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 185.625, y: -285}
+  m_AnchoredPosition: {x: 185.625, y: -135}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2675410250243644703
@@ -17870,7 +17876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17928,7 +17934,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 5899541149889369233}
---- !u!114 &4795141774485542703
+--- !u!114 &6185547724061261187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17937,14 +17943,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8628109715317814995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 11
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 739350644062511016}
 --- !u!1 &8732336415282451026
 GameObject:
   m_ObjectHideFlags: 0
@@ -18217,7 +18222,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 186.25, y: -260}
+  m_AnchoredPosition: {x: 186.25, y: -60}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6759712768231823593
@@ -18241,7 +18246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -18311,11 +18316,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 1
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 10
-  DrugPrice: 300
-  DrugAmount: 0
-  AvailableCities: 000000000200000004000000
+  DrugPrice: {fileID: 1606410751504001218}
 --- !u!1 &8905878357575375807
 GameObject:
   m_ObjectHideFlags: 0
@@ -18730,7 +18734,7 @@ GameObject:
   - component: {fileID: 7848405335631668178}
   - component: {fileID: 8876019473777713005}
   - component: {fileID: 4450294717088331872}
-  - component: {fileID: 809416758407145774}
+  - component: {fileID: 3222036108263703427}
   m_Layer: 5
   m_Name: OpiumInventoryItem
   m_TagString: Untagged
@@ -18757,7 +18761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 185.625, y: -235}
+  m_AnchoredPosition: {x: 185.625, y: -85}
   m_SizeDelta: {x: 350, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7848405335631668178
@@ -18781,7 +18785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -18839,7 +18843,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 8876019473777713005}
---- !u!114 &809416758407145774
+--- !u!114 &3222036108263703427
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18848,11 +18852,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 9191443370545661554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3746410bea7049e48639f0abed9e393, type: 3}
+  m_Script: {fileID: 11500000, guid: a4f360e42675941d78e0d436b619c2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TradingType: 0
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
   DrugType: 9
-  DrugPrice: 0
-  DrugAmount: 0
-  AvailableCities: 
+  DrugAmount: {fileID: 2637284901290087920}

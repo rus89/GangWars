@@ -1451,7 +1451,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58895e970e2034463b02174637c67869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerData: {fileID: 11400000, guid: 212d0989935434fa1b2722a7705862c1, type: 2}
+  GameData: {fileID: 11400000, guid: a415feb33bab544b398b228b9786ec58, type: 2}
+  Sell: {fileID: 2370609085170993211}
   ExitButton: {fileID: 642163750128328936}
+  DrugAmount: {fileID: 2568806744531664639}
 --- !u!1 &7442774831374761810
 GameObject:
   m_ObjectHideFlags: 0

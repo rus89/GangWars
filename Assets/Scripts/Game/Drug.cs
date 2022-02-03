@@ -1,15 +1,14 @@
-using UnityEngine;
+using UniRx;
 
-namespace LotusGangWars
+namespace LotusGangWars.Game
 {
-    public class Drug : MonoBehaviour
+    /// <summary>
+    /// SCENE:
+    /// GAME_OBJECT:
+    /// DESCRIPTION:
+    /// </summary>
+    public sealed class Drug : IDrug
     {
-        public enum TradingTypeEnum
-        {
-            Inventory,
-            Market
-        }
-        
         public enum DrugTypeEnum
         {
             Acid,
@@ -25,11 +24,22 @@ namespace LotusGangWars
             Shrooms,
             MDA
         }
+        
+        public DrugTypeEnum drugType { get; private set; }
 
-        public TradingTypeEnum TradingType;
-        public DrugTypeEnum DrugType;
-        public float DrugPrice;
-        public int DrugAmount;
-        public Player.CitiesEnum[] AvailableCities;
+        public FloatReactiveProperty drugPrice { get; private set; }
+
+        public IntReactiveProperty drugAmount { get; private set; }
+
+        public Drug()
+        {
+        }
+
+        public Drug(DrugTypeEnum drugType, float drugPrice, int drugAmount)
+        {
+            this.drugType = drugType;
+            this.drugPrice = new FloatReactiveProperty(drugPrice);
+            this.drugAmount = new IntReactiveProperty(drugAmount);
+        }
     }
 }

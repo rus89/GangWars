@@ -10,4 +10,14 @@ using UnityEngine;
 public class PlayerData : ScriptableObject
 {
     public Player Player;
+
+    private void OnEnable()
+    {
+        Player.ResetValues();
+    }
+
+    private void OnDisable()
+    {
+        Player.ResetValues();
+    }
 }

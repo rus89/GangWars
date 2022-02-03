@@ -15,7 +15,7 @@ MonoBehaviour:
   GameGlobalData:
     CurrentDay:
       value: 1
-    BankInterestRate:
+    DepositInterestRate:
       value: 0.05
     DebtInterestRate:
       value: 0.1
