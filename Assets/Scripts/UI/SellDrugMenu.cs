@@ -1,4 +1,4 @@
-using System.Globalization;
+using System;
 using System.Linq;
 using LotusGangWars.Utilities;
 using TMPro;
@@ -17,7 +17,7 @@ namespace LotusGangWars.UI
     {
         #region Private Fields
 
-        private float _drugAmount;
+        private int _drugAmount;
 
         #endregion
 
@@ -44,10 +44,6 @@ namespace LotusGangWars.UI
         // Start is called before the first frame update
         private void Start()
         {
-            //TODO: prikazati samo onu kolicinu koja je dostupna kod igraca
-            //TODO: proveriti unos podataka
-            //TODO: nakon prodaje povecati kes za amount * cena na trzistu
-            //TODO: smanjiti kolicinu droge na trzistu
             RegisterButtonsListeners();
         }
 
@@ -75,14 +71,21 @@ namespace LotusGangWars.UI
 
         private void HandleSellButtonClick(Unit obj)
         {
-            _drugAmount = float.Parse(DrugAmount.text);
+            _drugAmount = int.Parse(DrugAmount.text);
             if (_drugAmount > 0)
             {
-                //TODO: ovde treba uporediti selektovanu drogu i njenu trzisnu cenu
-                var marketPriceForSelectedInventoryDrug = GameData.GameGlobalData.MarketsDrugs[PlayerData.Player.CurrentCity]
-                    .Where(drugType => drugType == PlayerData.Player.SelectedInventoryDrug.Value.drugType);
-                PlayerData.Player.CurrentCash.Value += _drugAmount * PlayerData.Player.SelectedInventoryDrug.Value.drugPrice.Value;
-                PlayerData.Player.InventoryDrugs.Remove(PlayerData.Player.SelectedInventoryDrug.Value);
+                Sell.gameObject.SetActive(true);
+                var marketPriceForSelectedInventoryDrug = GameData.GameGlobalData.DrugsAtCurrentMarket
+                    .First(drug => drug.drugType == PlayerData.Player.SelectedInventoryDrug.Value.drugType);
+                PlayerData.Player.CurrentCash.Value += _drugAmount * marketPriceForSelectedInventoryDrug.drugPrice.Value;
+                if (Math.Abs(_drugAmount - PlayerData.Player.SelectedInventoryDrug.Value.drugAmount.Value) < 0.001f)
+                {
+                    PlayerData.Player.InventoryDrugs.Remove(PlayerData.Player.SelectedInventoryDrug.Value);
+                }
+                else
+                {
+                    PlayerData.Player.InventoryDrugs.First(drug => drug.drugType == PlayerData.Player.SelectedInventoryDrug.Value.drugType).drugAmount.Value -= _drugAmount;
+                }
             }
             MessageBroker.Default.Publish(new ExitCurrentMenuCalled());
         }

@@ -98,20 +98,9 @@ namespace LotusGangWars.UI
         private void Awake()
         {
             //TODO: kada se promeni grad desavaju se sledece
-            //menja se prikaz droga na trzistu u zavisnosti od informacija koje droge se nalaze na selektovanom trzistu. prikazuju se sa default cenama koje su unapred odredjene
             //okidaju se odredjeni eventi koji uticu na cene droga na trzistu (da rastu ili opadaju)
             //moze da se desi da dodje sa obracuna sa policijom u zavisnosti od toga u kom se gradu oni nalaze (uglavnom suprotno od onog u kome je menjanje cena)
-            //
-            //a
-            //a
-            //a
-            //a
-            //a
-            //a
-            //a
-            //
             
-            //TODO: prikazati samo one droge koje su dostupne na trzistu
             //TODO: na kraju igre da se sacuva highscore i da se pokaze korisniku
             //NOTE: postoji sansa da ovde ipak mora da se pozove reset values metoda za oba SOa jer ne znam koliko dobro rade njegove interne f-je
             SetInitValues();
@@ -193,7 +182,6 @@ namespace LotusGangWars.UI
 
         private void HandleMainMenuPointerClick(PointerEventData pointerEventData)
         {
-            //TODO: kada selektuje market drogu, inventory droga treba da bude null i obrnuto
             if (pointerEventData.selectedObject != null)
             {
                 var anyMarketDrug = _allMarketDrugs.Any(marketDrug => pointerEventData.selectedObject.Equals(marketDrug));
@@ -206,7 +194,6 @@ namespace LotusGangWars.UI
                 var anyInventoryDrug = _allInventoryDrugs.Any(inventoryDrug => pointerEventData.selectedObject.Equals(inventoryDrug));
                 if (anyInventoryDrug)
                 {
-                    //TODO: resiti ovaj problem dalje
                     var selectedInventoryDrug = PlayerData.Player.InventoryDrugs.First(drug => drug.drugType == pointerEventData.selectedObject.GetComponent<DrugInventoryPresenter>().DrugType);
                     PlayerData.Player.SelectedInventoryDrug.Value = selectedInventoryDrug;
                 }
@@ -225,7 +212,6 @@ namespace LotusGangWars.UI
             PlayerData.Player.CurrentCity = Player.CitiesEnum.Tokyo;
             IncreaseDay();
             SetButtonInactive();
-            //TODO: nakon sto zavrsi to ili ne uradi nista, pojavljuje se home menu u kome su prikazane sve dostupne droge za taj grad
         }
 
         private void HandleCityTwoButtonClick(Unit unit)
@@ -347,17 +333,6 @@ namespace LotusGangWars.UI
                 .ObserveRemove()
                 .Subscribe(HandleInventoryDrugsRemoving)
                 .AddTo(this);
-            //NOTE: ne radi ovaj kod ispod - nikad se ne ispise text
-            foreach (var inventoryDrug in PlayerData.Player.InventoryDrugs)
-            {
-                inventoryDrug.drugAmount.Zip(inventoryDrug.drugAmount.Skip(1), (previous, current) => new {previous, current})
-                    .Where(amount => amount.current != amount.previous)
-                    .Subscribe(amount =>
-                    {
-                        Debug.Log("promenjena kolicina");
-                    })
-                    .AddTo(this);
-            }
         }
 
         private void HandleInventoryDrugsAdding(CollectionAddEvent<IDrug> collectionAddEvent)
@@ -459,7 +434,6 @@ namespace LotusGangWars.UI
             DisableAllDrugs();
             GameData.GameGlobalData.DrugsAtCurrentMarket = GameData.GameGlobalData.AllDrugsInAllMarkets[currentCity];
             //TODO: promeniti cene u zavisnosti od trzista
-            //TODO: upaliti samo one objekte u inventory koji su dostupni na trzistu
             foreach (var marketDrug in from marketDrug in _allMarketDrugs from drug in GameData.GameGlobalData.DrugsAtCurrentMarket where marketDrug.GetComponent<DrugPresenter>().DrugType == drug.drugType select marketDrug)
             {
                 marketDrug.SetActive(true);

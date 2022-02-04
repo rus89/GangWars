@@ -41,8 +41,8 @@ namespace LotusGangWars
             CurrentHealth.Value = 100;
             CurrentDeposit.Value = 0;
             CurrentDebt.Value = 5500;
-            SelectedInventoryDrug = null;
-            SelectedMarketDrug = null;
+            SelectedInventoryDrug.Value = null;
+            SelectedMarketDrug.Value = null;
             InventoryDrugs.Clear();
         }
     }

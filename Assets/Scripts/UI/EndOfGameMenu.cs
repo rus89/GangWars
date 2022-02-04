@@ -42,8 +42,6 @@ namespace LotusGangWars.UI
 
         private void RegisterButtonsListeners()
         {
-            //TODO: poziva se high score menu
-            //TODO: iz high score menija se poziva main menu
             ExitButton.OnClickAsObservable()
                 .Subscribe(_ => MessageBroker.Default.Publish(new MainMenuCalled()))
                 .AddTo(this);
