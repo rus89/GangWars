@@ -15,15 +15,16 @@ namespace LotusGangWars
         public IntReactiveProperty CurrentDay = new IntReactiveProperty(1);
         public FloatReactiveProperty DepositInterestRate = new FloatReactiveProperty(0.05f);
         public FloatReactiveProperty DebtInterestRate = new FloatReactiveProperty(0.1f);
+        //NOTE: mozda suvisna promenljiva zato sto moze da se dobije iz dicitonary AllDrugsInAllMarkets
         public ReactiveCollection<IDrug> DrugsAtCurrentMarket = new ReactiveCollection<IDrug>();
-        public ReactiveDictionary<Player.CitiesEnum, float> PriceFactorsPerMarket = new ReactiveDictionary<Player.CitiesEnum, float>
+        public ReactiveDictionary<Player.CitiesEnum, (float, float)> PriceFactorsPerMarket = new ReactiveDictionary<Player.CitiesEnum, (float, float)>
         {
-            { Player.CitiesEnum.Tokyo, 1f },
-            { Player.CitiesEnum.Delphi, 2f },
-            { Player.CitiesEnum.Shanghai, 0.5f },
-            { Player.CitiesEnum.Bangkok, 3f },
-            { Player.CitiesEnum.Manila, 0.25f },
-            { Player.CitiesEnum.Seoul, 0.75f }
+            { Player.CitiesEnum.Tokyo, (1f, 1f) },
+            { Player.CitiesEnum.Delphi, (1f, 2f) },
+            { Player.CitiesEnum.Shanghai, (0.5f, 0.75f) },
+            { Player.CitiesEnum.Bangkok, (2f, 3f) },
+            { Player.CitiesEnum.Manila, (0.25f, 0.5f) },
+            { Player.CitiesEnum.Seoul, (0.75f, 1f) }
         };
 
         private static readonly ReactiveCollection<IDrug> AllDrugs = new ReactiveCollection<IDrug>
@@ -132,61 +133,11 @@ namespace LotusGangWars
                 }
             }
         };
-        
-        public ReactiveDictionary<Player.CitiesEnum, ReactiveCollection<Drug.DrugTypeEnum>> MarketsDrugs = new ReactiveDictionary<Player.CitiesEnum, ReactiveCollection<Drug.DrugTypeEnum>>
-        {
-            {
-                Player.CitiesEnum.Tokyo,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Acid, Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Heroin, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Opium, Drug.DrugTypeEnum.Peyote,
-                    Drug.DrugTypeEnum.Shrooms, Drug.DrugTypeEnum.Speed, Drug.DrugTypeEnum.Weed, Drug.DrugTypeEnum.MDA, Drug.DrugTypeEnum.PCP
-                }
-            },
-            {
-                Player.CitiesEnum.Delphi,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Opium, Drug.DrugTypeEnum.Shrooms, Drug.DrugTypeEnum.Speed, Drug.DrugTypeEnum.MDA,
-                    Drug.DrugTypeEnum.PCP
-                }
-            },
-            {
-                Player.CitiesEnum.Shanghai,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Acid, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Peyote, Drug.DrugTypeEnum.Speed, Drug.DrugTypeEnum.MDA
-                }
-            },
-            {
-                Player.CitiesEnum.Bangkok,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Acid, Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Opium, Drug.DrugTypeEnum.Peyote, Drug.DrugTypeEnum.Speed,
-                    Drug.DrugTypeEnum.Weed, Drug.DrugTypeEnum.MDA
-                }
-            },
-            {
-                Player.CitiesEnum.Manila,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Acid, Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Heroin, Drug.DrugTypeEnum.Ludes, Drug.DrugTypeEnum.Peyote, Drug.DrugTypeEnum.Shrooms, Drug.DrugTypeEnum.Weed,
-                    Drug.DrugTypeEnum.MDA
-                }
-            },
-            {
-                Player.CitiesEnum.Seoul,
-                new ReactiveCollection<Drug.DrugTypeEnum>
-                {
-                    Drug.DrugTypeEnum.Cocaine, Drug.DrugTypeEnum.Hashish, Drug.DrugTypeEnum.Heroin, Drug.DrugTypeEnum.Opium, Drug.DrugTypeEnum.Peyote, Drug.DrugTypeEnum.Shrooms,
-                    Drug.DrugTypeEnum.Weed, Drug.DrugTypeEnum.MDA, Drug.DrugTypeEnum.PCP
-                }
-            }
-        };
 
         public void ResetValues()
         {
             CurrentDay.Value = 1;
+            DrugsAtCurrentMarket = null;
         }
     }
 }

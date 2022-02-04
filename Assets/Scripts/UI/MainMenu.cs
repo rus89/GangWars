@@ -431,29 +431,58 @@ namespace LotusGangWars.UI
 
         private void ObserveCurrentCityChange(Player.CitiesEnum currentCity)
         {
-            DisableAllDrugs();
             GameData.GameGlobalData.DrugsAtCurrentMarket = GameData.GameGlobalData.AllDrugsInAllMarkets[currentCity];
-            //TODO: promeniti cene u zavisnosti od trzista
-            foreach (var marketDrug in from marketDrug in _allMarketDrugs from drug in GameData.GameGlobalData.DrugsAtCurrentMarket where marketDrug.GetComponent<DrugPresenter>().DrugType == drug.drugType select marketDrug)
-            {
-                marketDrug.SetActive(true);
-            }
-
-            foreach (var inventoryDrug in _allInventoryDrugs)
-            {
-                inventoryDrug.GetComponent<Selectable>().interactable = false;
-            }
-            foreach (var inventoryDrug in from inventoryDrug in _allInventoryDrugs from drug in GameData.GameGlobalData.DrugsAtCurrentMarket where inventoryDrug.GetComponent<DrugInventoryPresenter>().DrugType == drug.drugType select inventoryDrug)
-            {
-                inventoryDrug.GetComponent<Selectable>().interactable = true;
-            }
+            DisableAllMarketDrugs();
+            DisableAllInventoryDrugs();
+            GenerateRandomPrices(currentCity);
+            EnableMarketDrugPresenters();
+            EnableInventoryDrugPresenters();
         }
 
-        private void DisableAllDrugs()
+        private void DisableAllMarketDrugs()
         {
             foreach (var marketDrug in _allMarketDrugs)
             {
                 marketDrug.SetActive(false);
+            }
+        }
+
+        private void DisableAllInventoryDrugs()
+        {
+            foreach (var inventoryDrug in _allInventoryDrugs)
+            {
+                inventoryDrug.GetComponent<Selectable>().interactable = false;
+            }
+        }
+
+        private void GenerateRandomPrices(Player.CitiesEnum currentCity)
+        {
+            var randomFactor = UnityEngine.Random.Range(GameData.GameGlobalData.PriceFactorsPerMarket[currentCity].Item1, GameData.GameGlobalData.PriceFactorsPerMarket[currentCity].Item2);
+            foreach (var drug in GameData.GameGlobalData.DrugsAtCurrentMarket)
+            {
+                drug.drugPrice.Value *= randomFactor;
+            }
+        }
+
+        private void EnableMarketDrugPresenters()
+        {
+            foreach (var marketDrug in from marketDrug in _allMarketDrugs
+                from drug in GameData.GameGlobalData.DrugsAtCurrentMarket
+                where marketDrug.GetComponent<DrugPresenter>().DrugType == drug.drugType
+                select marketDrug)
+            {
+                marketDrug.SetActive(true);
+            }
+        }
+
+        private void EnableInventoryDrugPresenters()
+        {
+            foreach (var inventoryDrug in from inventoryDrug in _allInventoryDrugs
+                from drug in GameData.GameGlobalData.DrugsAtCurrentMarket
+                where inventoryDrug.GetComponent<DrugInventoryPresenter>().DrugType == drug.drugType
+                select inventoryDrug)
+            {
+                inventoryDrug.GetComponent<Selectable>().interactable = true;
             }
         }
 
