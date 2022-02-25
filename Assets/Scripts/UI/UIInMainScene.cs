@@ -44,8 +44,8 @@ namespace LotusGangWars.UI
         public LeanWindow LoanSharkMenu;
         public LeanWindow BuyDrugMenu;
         public LeanWindow SellDrugMenu;
-        //TODO: sledece menije tek treba napraviti
         public LeanWindow ConnectWallet;
+        //TODO: sledece menije tek treba napraviti
         public LeanWindow PubMenu;
         public LeanWindow GunsHouseMenu;
         public LeanWindow PoliceFightMenu;

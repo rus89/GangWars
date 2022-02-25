@@ -1,6 +1,7 @@
 using System;
 using LotusGangWars.Game;
 using UniRx;
+using UnityEngine.UI;
 
 namespace LotusGangWars
 {
@@ -17,6 +18,8 @@ namespace LotusGangWars
             Seoul
         }
 
+        public StringReactiveProperty UserName = new StringReactiveProperty(string.Empty);
+        public ReactiveProperty<RawImage> UserProfileImage = new ReactiveProperty<RawImage>(null);
         public CitiesEnum CurrentCity = CitiesEnum.Tokyo;
         public FloatReactiveProperty CurrentCash = new FloatReactiveProperty(2000);
         public IntReactiveProperty CurrentGuns = new IntReactiveProperty(0);
@@ -35,6 +38,8 @@ namespace LotusGangWars
 
         public void ResetValues()
         {
+            UserName.Value = string.Empty;
+            UserProfileImage.Value = null;
             CurrentCity = CitiesEnum.Tokyo;
             CurrentCash.Value = 2000;
             CurrentGuns.Value = 0;

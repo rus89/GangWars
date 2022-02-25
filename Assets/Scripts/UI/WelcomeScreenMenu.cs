@@ -45,7 +45,7 @@ namespace LotusGangWars.UI
 
         private void HandleOkButtonClick(Unit obj)
         {
-            MessageBroker.Default.Publish(new MainMenuCalled());
+            MessageBroker.Default.Publish(new ConnectWalletMenuCalled());
             gameObject.GetComponent<LeanWindow>().TurnOff();
         }
 

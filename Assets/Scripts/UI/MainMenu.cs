@@ -38,6 +38,8 @@ namespace LotusGangWars.UI
 
         [Header("General UI")]
         public Image Panel;
+        public RawImage ProfilePicture;
+        public TMP_Text UserName;
         
         [Header("Cities")]
         public Button CityOne;
@@ -97,10 +99,9 @@ namespace LotusGangWars.UI
 
         private void Awake()
         {
-            //TODO: kada se promeni grad desavaju se sledece
-            //okidaju se odredjeni eventi koji uticu na cene droga na trzistu (da rastu ili opadaju)
-            //moze da se desi da dodje sa obracuna sa policijom u zavisnosti od toga u kom se gradu oni nalaze (uglavnom suprotno od onog u kome je menjanje cena)
-            
+            //BUG: kada igrac ima vise para nego sto treba da vrati onda on posalje zelenasu sve pare, a ne samo ono sto duguje
+            //BUG: promene cena su lose definisane i lose se ponasaju
+            //BUG: srediti prikaz menija
             //TODO: na kraju igre da se sacuva highscore i da se pokaze korisniku
             //NOTE: postoji sansa da ovde ipak mora da se pozove reset values metoda za oba SOa jer ne znam koliko dobro rade njegove interne f-je
             SetInitValues();
@@ -333,6 +334,12 @@ namespace LotusGangWars.UI
                 .ObserveRemove()
                 .Subscribe(HandleInventoryDrugsRemoving)
                 .AddTo(this);
+            PlayerData.Player.UserProfileImage
+                .Subscribe(HandleShowingProfilePicture)
+                .AddTo(this);
+            PlayerData.Player.UserName
+                .Subscribe(HandleSettingUserName)
+                .AddTo(this);
         }
 
         private void HandleInventoryDrugsAdding(CollectionAddEvent<IDrug> collectionAddEvent)
@@ -349,6 +356,16 @@ namespace LotusGangWars.UI
             {
                 inventoryDrug.SetActive(false);
             }
+        }
+
+        private void HandleShowingProfilePicture(RawImage profilePicture)
+        {
+            ProfilePicture.texture = profilePicture.texture;
+        }
+
+        private void HandleSettingUserName(string userName)
+        {
+            UserName.SetText(userName);
         }
 
         private void HandlePlayerCashChange(float currentCash)
