@@ -1,4 +1,4 @@
-# LotusGangWars
+# Gang Wars
 
 Simple prototype game based on famous text-based game [Drug Wars](https://en.wikipedia.org/wiki/Drug_Wars_(video_game))
 
