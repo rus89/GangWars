@@ -6,3 +6,7 @@ Drug Wars is a turn-based strategy computer game in which the player assumes the
 
 Frameworks used in game:
 - [UniRx](https://github.com/neuecc/UniRx)
+- [LINQToGameObjectForUnity](https://github.com/neuecc/LINQ-to-GameObject-for-Unity/)
+- [LeanUI](https://assetstore.unity.com/packages/tools/gui/lean-gui-72138)
+- [LeanTween](https://github.com/dentedpixel/LeanTween)
+- [RSG FSM](https://github.com/Real-Serious-Games/Fluent-State-Machine)
